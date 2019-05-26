@@ -1,0 +1,64 @@
+20:17:28.712 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9705 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:17:28.713 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:17:29.759 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:17:30.228 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:17:30.264 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.708 seconds (JVM running for 2.167)
+20:17:30.382 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
+20:17:31.692 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9703 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:17:31.694 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:17:32.475 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
+20:17:32.495 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
+20:17:32.495 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
+20:17:32.550 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
+20:17:32.551 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 832 ms
+20:17:32.854 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:17:33.196 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:17:33.247 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
+20:17:33.250 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.843 seconds (JVM running for 7.19)
+20:17:41.461 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:17:41.462 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
+20:17:41.467 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 5 ms
+20:17:41.495 [http-nio-8181-exec-1] WARN   o.s.w.s.h.AbstractHandlerExceptionResolver.logException 198  - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; nested exception is java.lang.NumberFormatException: For input string: "A"]
+20:18:38.506 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9712 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:18:38.507 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:18:39.561 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:18:40.049 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:18:40.085 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.736 seconds (JVM running for 2.19)
+20:18:40.200 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
+20:18:41.555 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9710 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:18:41.557 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:18:42.319 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
+20:18:42.339 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
+20:18:42.339 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
+20:18:42.397 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
+20:18:42.401 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 819 ms
+20:18:42.709 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:18:43.054 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:18:43.105 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
+20:18:43.108 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.852 seconds (JVM running for 7.265)
+20:18:49.003 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:18:49.003 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
+20:18:49.007 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 4 ms
+20:20:07.911 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9721 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:20:07.912 [main] DEBUG  o.s.boot.StartupInfoLogger.logStarting 53  - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+20:20:07.912 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:20:08.961 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:20:09.445 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:20:09.482 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.73 seconds (JVM running for 2.195)
+20:20:09.601 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
+20:20:10.928 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9719 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
+20:20:10.930 [main] DEBUG  o.s.boot.StartupInfoLogger.logStarting 53  - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+20:20:10.931 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+20:20:11.706 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
+20:20:11.727 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
+20:20:11.728 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
+20:20:11.784 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
+20:20:11.784 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 829 ms
+20:20:12.088 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+20:20:12.412 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+20:20:12.464 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
+20:20:12.467 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.829 seconds (JVM running for 7.205)
+20:20:18.926 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:20:18.927 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
+20:20:18.931 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 4 ms
+20:20:21.551 [http-nio-8181-exec-2] DEBUG  d.l.a.rest.AddiererRestController.addiere 36  - addieren...

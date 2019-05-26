@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Addierer</title>
+</head>
+<body>
+
+<h1>Addierer</h1>
+
+<form id="addiererForm" th:action="@{'api/rest/addiere'}" th:method="GET">
+    <p>Bitte wähle zwei Zahlen.</p>
+
+    <table>
+        <tr>
+            <td>Summand 1</td>
+            <td>
+                <input id="summand1" name="summand1" type="text" maxlength="10"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Summand 2</td>
+            <td>
+                <input id="summand2" name="summand2" type="text" maxlength="10"/>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" value="Addiere!" />
+</form>
+
+
+</body>
+</html>
