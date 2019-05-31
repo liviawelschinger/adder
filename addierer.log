@@ -1,64 +1,55 @@
-20:17:28.712 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9705 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:17:28.713 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:17:29.759 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:17:30.228 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:17:30.264 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.708 seconds (JVM running for 2.167)
-20:17:30.382 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
-20:17:31.692 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9703 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:17:31.694 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:17:32.475 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
-20:17:32.495 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
-20:17:32.495 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
-20:17:32.550 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
-20:17:32.551 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 832 ms
-20:17:32.854 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:17:33.196 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:17:33.247 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
-20:17:33.250 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.843 seconds (JVM running for 7.19)
-20:17:41.461 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
-20:17:41.462 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
-20:17:41.467 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 5 ms
-20:17:41.495 [http-nio-8181-exec-1] WARN   o.s.w.s.h.AbstractHandlerExceptionResolver.logException 198  - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; nested exception is java.lang.NumberFormatException: For input string: "A"]
-20:18:38.506 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9712 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:18:38.507 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:18:39.561 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:18:40.049 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:18:40.085 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.736 seconds (JVM running for 2.19)
-20:18:40.200 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
-20:18:41.555 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9710 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:18:41.557 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:18:42.319 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
-20:18:42.339 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
-20:18:42.339 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
-20:18:42.397 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
-20:18:42.401 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 819 ms
-20:18:42.709 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:18:43.054 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:18:43.105 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
-20:18:43.108 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.852 seconds (JVM running for 7.265)
-20:18:49.003 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
-20:18:49.003 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
-20:18:49.007 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 4 ms
-20:20:07.911 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplicationTests on Wolframs-Mini.fritz.box with PID 9721 (started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:20:07.912 [main] DEBUG  o.s.boot.StartupInfoLogger.logStarting 53  - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-20:20:07.912 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:20:08.961 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:20:09.445 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:20:09.482 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 1.73 seconds (JVM running for 2.195)
-20:20:09.601 [Thread-2] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
-20:20:10.928 [main] INFO   o.s.boot.StartupInfoLogger.logStarting 50  - Starting AddiererApplication on Wolframs-Mini.fritz.box with PID 9719 (/Users/wolfram/IdeaProjects/addierer/target/classes started by wolfram in /Users/wolfram/IdeaProjects/addierer)
-20:20:10.930 [main] DEBUG  o.s.boot.StartupInfoLogger.logStarting 53  - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-20:20:10.931 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
-20:20:11.706 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
-20:20:11.727 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
-20:20:11.728 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.19]
-20:20:11.784 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
-20:20:11.784 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 829 ms
-20:20:12.088 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
-20:20:12.412 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 2 endpoint(s) beneath base path '/actuator'
-20:20:12.464 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
-20:20:12.467 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 1.829 seconds (JVM running for 7.205)
-20:20:18.926 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
-20:20:18.927 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
-20:20:18.931 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 4 ms
-20:20:21.551 [http-nio-8181-exec-2] DEBUG  d.l.a.rest.AddiererRestController.addiere 36  - addieren...
+16:53:44.060 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+16:53:45.457 [main] WARN   o.s.boot.actuate.endpoint.EndpointId.logWarning 135  - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+16:53:45.906 [main] INFO   o.s.cloud.context.scope.GenericScope.setSerializationId 294  - BeanFactory id=5256ba46-e308-3b00-acda-c1a7d2153011
+16:53:46.134 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization 330  - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$beb3f856] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:53:46.786 [main] WARN   c.n.c.sources.URLConfigurationSource.<init> 121  - No URLs will be polled as dynamic configuration sources.
+16:53:46.787 [main] INFO   c.n.c.sources.URLConfigurationSource.<init> 122  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:53:46.794 [main] WARN   c.n.c.sources.URLConfigurationSource.<init> 121  - No URLs will be polled as dynamic configuration sources.
+16:53:46.795 [main] INFO   c.n.c.sources.URLConfigurationSource.<init> 122  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:53:47.500 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+16:53:49.471 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 21 endpoint(s) beneath base path '/actuator'
+16:53:49.631 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplicationTests in 7.139 seconds (JVM running for 8.326)
+16:53:50.076 [Thread-5] INFO   o.s.s.c.ExecutorConfigurationSupport.shutdown 208  - Shutting down ExecutorService 'applicationTaskExecutor'
+16:53:53.779 [main] INFO   o.s.boot.SpringApplication.logStartupProfileInfo 675  - No active profile set, falling back to default profiles: default
+16:53:55.036 [main] WARN   o.s.boot.actuate.endpoint.EndpointId.logWarning 135  - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+16:53:55.537 [main] INFO   o.s.cloud.context.scope.GenericScope.setSerializationId 294  - BeanFactory id=61e1a106-9d9b-3f0c-bada-80fcc3052510
+16:53:55.696 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization 330  - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bf546323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:53:56.159 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.initialize 90  - Tomcat initialized with port(s): 8181 (http)
+16:53:56.209 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting service [Tomcat]
+16:53:56.209 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Starting Servlet engine: [Apache Tomcat/9.0.17]
+16:53:56.352 [main] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring embedded WebApplicationContext
+16:53:56.352 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296  - Root WebApplicationContext: initialization completed in 2553 ms
+16:53:56.544 [main] WARN   c.n.c.sources.URLConfigurationSource.<init> 121  - No URLs will be polled as dynamic configuration sources.
+16:53:56.545 [main] INFO   c.n.c.sources.URLConfigurationSource.<init> 122  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:53:56.571 [main] INFO   c.n.config.DynamicPropertyFactory.getInstance 281  - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c5342a4
+16:53:57.679 [main] WARN   c.n.c.sources.URLConfigurationSource.<init> 121  - No URLs will be polled as dynamic configuration sources.
+16:53:57.693 [main] INFO   c.n.c.sources.URLConfigurationSource.<init> 122  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:53:58.001 [main] INFO   o.s.s.c.ExecutorConfigurationSupport.initialize 171  - Initializing ExecutorService 'applicationTaskExecutor'
+16:53:58.637 [main] INFO   o.s.b.a.e.web.EndpointLinksResolver.<init> 59  - Exposing 21 endpoint(s) beneath base path '/actuator'
+16:53:58.785 [main] INFO   o.s.c.n.eureka.InstanceInfoFactory.create 71  - Setting initial instance status as: STARTING
+16:53:58.841 [main] INFO   c.netflix.discovery.DiscoveryClient.<init> 349  - Initializing Eureka in region us-east-1
+16:53:59.101 [main] INFO   c.n.d.p.DiscoveryJerseyProvider.<init> 70  - Using JSON encoding codec LegacyJacksonJson
+16:53:59.101 [main] INFO   c.n.d.p.DiscoveryJerseyProvider.<init> 71  - Using JSON decoding codec LegacyJacksonJson
+16:53:59.315 [main] INFO   c.n.d.p.DiscoveryJerseyProvider.<init> 80  - Using XML encoding codec XStreamXml
+16:53:59.315 [main] INFO   c.n.d.p.DiscoveryJerseyProvider.<init> 81  - Using XML decoding codec XStreamXml
+16:53:59.543 [main] INFO   c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints 43  - Resolving eureka endpoints via configuration
+16:53:59.581 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 958  - Disable delta property : false
+16:53:59.582 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 959  - Single vip registry refresh property : null
+16:53:59.582 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 960  - Force full registry fetch : false
+16:53:59.582 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 961  - Application is null : false
+16:53:59.583 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 962  - Registered Applications size is zero : true
+16:53:59.583 [main] INFO   c.netflix.discovery.DiscoveryClient.fetchRegistry 964  - Application version is -1: true
+16:53:59.583 [main] INFO   c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry 1047  - Getting all instance registry info from the eureka server
+16:53:59.894 [main] INFO   c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry 1056  - The response status is 200
+16:53:59.910 [main] INFO   c.netflix.discovery.DiscoveryClient.initScheduledTasks 1264  - Starting heartbeat executor: renew interval is: 30
+16:53:59.913 [main] INFO   c.n.discovery.InstanceInfoReplicator.<init> 60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:53:59.918 [main] INFO   c.netflix.discovery.DiscoveryClient.<init> 449  - Discovery Client initialized at timestamp 1559314439917 with initial instances count: 2
+16:53:59.920 [main] INFO   o.s.c.n.e.s.EurekaServiceRegistry.register 42  - Registering application ADDIERER with eureka with status UP
+16:53:59.921 [main] INFO   c.n.discovery.DiscoveryClient$3.notify 1299  - Saw local status change event StatusChangeEvent [timestamp=1559314439921, current=UP, previous=STARTING]
+16:53:59.924 [DiscoveryClient-InstanceInfoReplicator-0] INFO   c.netflix.discovery.DiscoveryClient.register 826  - DiscoveryClient_ADDIERER/livias-mbp.fritz.box:addierer:8181: registering service...
+16:53:59.981 [DiscoveryClient-InstanceInfoReplicator-0] INFO   c.netflix.discovery.DiscoveryClient.register 835  - DiscoveryClient_ADDIERER/livias-mbp.fritz.box:addierer:8181 - registration status: 204
+16:54:00.036 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer.start 204  - Tomcat started on port(s): 8181 (http) with context path ''
+16:54:00.040 [main] INFO   o.s.boot.StartupInfoLogger.logStarted 59  - Started AddiererApplication in 8.127 seconds (JVM running for 24.837)
+16:54:23.443 [http-nio-8181-exec-1] INFO   org.apache.juli.logging.DirectJDKLog.log 173  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:54:23.447 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 524  - Initializing Servlet 'dispatcherServlet'
+16:54:23.496 [http-nio-8181-exec-1] INFO   o.s.web.servlet.FrameworkServlet.initServletBean 546  - Completed initialization in 48 ms
