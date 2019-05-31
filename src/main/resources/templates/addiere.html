@@ -6,6 +6,14 @@
 </head>
 <body>
 
+<!--
+    https://o7planning.org/de/11545/anleitung-spring-boot-und-thymeleaf#a10847966
+
+    The template file of Thymeleaf is a normal text file with the format XML / XHTML / HTML5.
+    Thymeleaf Engine will read a template file and connect it to the Java objects to
+    create another document (generate)
+-->
+
 <h1>Addierer</h1>
 
 <form id="addiererForm" th:action="@{'api/rest/addiere'}" th:method="GET">
