@@ -21,15 +21,14 @@ public class AddiererApplication {
 	@Autowired
 	private DiscoveryClient discoveryClient;
 
-	public static void main(String[] args) {
-		SpringApplication.run(AddiererApplication.class, args);
-	}
-
-
 	@RequestMapping("/service-instances/{applicationName}")
 	public List<ServiceInstance> serviceInstancesByApplicationName(
 			@PathVariable String applicationName) {
 		return this.discoveryClient.getInstances(applicationName);
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(AddiererApplication.class, args);
 	}
 
 }
