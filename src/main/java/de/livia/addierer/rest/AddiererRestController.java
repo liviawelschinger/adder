@@ -37,7 +37,7 @@ public class AddiererRestController {
      * @param summand2 summand 2
      * @return total
      */
-    @RequestMapping(value = "/addiere", method = RequestMethod.GET)
+    @RequestMapping(value = "/addiere", method = RequestMethod.GET, produces = "application/json") // Response in JSON format
     public Double addiere(@RequestParam(name = "summand1", required = true) double summand1
             , @RequestParam(name = "summand2", required = true) double summand2) {
 
