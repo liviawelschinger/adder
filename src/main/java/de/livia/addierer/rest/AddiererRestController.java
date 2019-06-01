@@ -38,11 +38,12 @@ public class AddiererRestController {
      * @return total
      */
     @RequestMapping(value = "/addiere", method = RequestMethod.GET)
-    public double addiere(@RequestParam(name = "summand1", required = true) double summand1
+    public Double addiere(@RequestParam(name = "summand1", required = true) double summand1
             , @RequestParam(name = "summand2", required = true) double summand2) {
 
         log.debug("addieren...");
-        return summand1 + summand2;
+        // Wrapper class Double is necessary for the serialization
+        return Double.valueOf(summand1 + summand2);
     }
 
     }
